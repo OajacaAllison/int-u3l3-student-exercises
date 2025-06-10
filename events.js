@@ -37,7 +37,7 @@ changeColorButton.addEventListener("click", function() {
 
 /* 4. When end game button is clicked, the title of the page says game over. */
 
-endGameButton.addEventListener ("click", fucntion() {
+endGameButton.addEventListener ("click", function() {
     title.innerHTML = "Game over.";
 });
 
@@ -45,7 +45,7 @@ endGameButton.addEventListener ("click", fucntion() {
 
 /* 5. When update score button is clicked, the counter score becomes "1" instead of 0. */
 
-score.addEventListener ("click", fucntion() {
+updateScoreButton.addEventListener ("click", function() {
     score.innerHTML = 1;
 });
 
