@@ -13,7 +13,7 @@ let growButton = document.querySelector(".grow");
 
 /* 1. When jump button is clicked, Mario jumps and coin disappears. */
 
-jumpButton.addEventListener("click", function() {
+jumpButton.addEventListener('click', function() {
     mario.style.bottom = "120px";
     coin.style.display = "none";
 });
