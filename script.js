@@ -7,10 +7,5 @@ let variable= document.querySelector (.answer)
 button.addEventListener("click", function() {
 // 2. Replace the value with a string with a name of a movie you enjoy.
 // 3. Uncomment the line of code below, run, and try the button.
-answer.innerHTML="movie name goes here";
-
-
-
-
-
+answer.innerHTML="meow";
 });
